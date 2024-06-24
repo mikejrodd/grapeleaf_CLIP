@@ -4,6 +4,11 @@
 
 This project aims to detect esca-infected vineyard leaves using an anomaly detection model that leverages CLIP for feature extraction and Isolation Forest for anomaly detection. The model's performance is evaluated based on its ability to correctly identify healthy and esca-infected leaves.
 
+### CLIP
+
+[CLIP (Contrastive Language–Image Pre-Training)](https://github.com/openai/CLIP) is a model developed by OpenAI that can understand images and text. It is trained on a variety of (image, text) pairs, allowing it to learn visual concepts from natural language descriptions. In this project, CLIP is used to extract meaningful features from the leaf images, which are then used for anomaly detection. Using CLIP for feature extraction from vineyard leaf images without text annotations leverages its robust pre-trained image features but does not fully utilize its multimodal capabilities. While this approach can still be effective for anomaly detection, alternative models like Convolutional Neural Networks (CNNs) might offer better performance for purely image-based tasks. To optimize the model, future work should involve comparing CLIP with other image-based models, exploring the addition of text annotations, and experimenting with hybrid approaches to enhance feature representation and detection accuracy.
+
+
 ## Dataset
 
 The dataset consists of 1805 images:
