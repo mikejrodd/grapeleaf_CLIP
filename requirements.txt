@@ -1,0 +1,7 @@
+numpy
+Pillow
+scikit-learn
+tensorflow
+joblib
+torch
+git+https://github.com/openai/CLIP.git
